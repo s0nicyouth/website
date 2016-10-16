@@ -1,0 +1,38 @@
+.header {
+    background-color: #228eff;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.my_name {
+    font-size: 50pt;
+    color: white;
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.desc_of_me {
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+}
+
+.navbar-color {
+    background-color: #228eff;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.division-header {
+    text-align: center;
+    color: #228eff;
+}

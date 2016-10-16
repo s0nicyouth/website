@@ -1,0 +1,31 @@
+html, body {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+a {
+    color: white !important;
+    text-decoration: underline;
+    background-color: transparent !important;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+    background-color: transparent !important;
+}
+
+a:focus {
+    color: white !important;
+    text-decoration: underline;
+    background-color: transparent !important;
+}
+
+p {
+    text-indent: 20pt;
+    padding-left: 100pt;
+    padding-right: 100pt;
+    color: dimgray;
+}
