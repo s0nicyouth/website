@@ -24,8 +24,5 @@ a:focus {
 }
 
 p {
-    text-indent: 20pt;
-    padding-left: 100pt;
-    padding-right: 100pt;
-    color: dimgray;
+    color: black;
 }

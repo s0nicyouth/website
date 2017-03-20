@@ -23,9 +23,17 @@ class AppAsset extends AssetBundle
         '//fonts.googleapis.com/css?family=Raleway:400,300,600'
     ];
     public $js = [
+    	'scripts/utils.js',
+    		'https://maps.googleapis.com/maps/api/js?key=AIzaSyCYgNtQ-5NcwweART2VUb9OCIGlAzr9Xrc&callback=initMap'
     ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+    ];
+    
+    public $jsOptions = [
+    		'position' => \yii\web\View::POS_HEAD,
+    		'async' => 'async',
+    		'defer' => 'defer'
     ];
 }
