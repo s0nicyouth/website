@@ -86,7 +86,7 @@ AppAsset::register($this);
 	<?php echo Html::tag('h1', 'Projects', ['id' => 'projects', 'class' => 'division-header']) ?>
     <div class='projects-container'>
     <div class='project-description'>
-    	<?php echo Html::a(Html::img('images/ya_browser.webp',
+    	<?php echo Html::a(Html::img('images/ya_browser.png',
     			['width' => '180px']),
     			'https://play.google.com/store/apps/details?id=com.yandex.browser',
     			['target' => '_blank'])?>
@@ -100,7 +100,7 @@ AppAsset::register($this);
     	<p class='project-text'>Private desktop browser based on Chromium engine</p>
 	</div>
 	<div class='project-description'>
-    	<?php echo Html::a(Html::img('images/slovoed.webp',
+    	<?php echo Html::a(Html::img('images/slovoed.png',
     			['width' => '180px']),
     			'https://play.google.com/store/apps/details?id=com.slovoed.dictionaries',
     			['target' => '_blank'])?>
@@ -109,7 +109,7 @@ AppAsset::register($this);
     </div>
     <div class='projects-container'>
     	<div class='project-description'>
-    		<?php echo Html::a(Html::img('images/acalc.webp',
+    		<?php echo Html::a(Html::img('images/acalc.png',
     				['width' => '180px']),
     				'https://play.google.com/store/apps/details?id=com.syouth.acalc',
     				['target' => '_blank'])?>
@@ -122,7 +122,7 @@ AppAsset::register($this);
     <div class='contacts-bar'>
     	<ul>
         	<li>e-mail: <?php echo Html::mailto('mynameisantik@gmail.com', 'mynameisantik@gmail.com')?></li>
-        	<li>skype: anton.ivanov97</li>
+        	<li>skype: <?php echo Html::a('anton.ivanov97', 'skype:anton.ivanov97?chat') ?></li>
         </ul> 
     </div>
     <p class='about-text'>My name is Anton Ivanov. I'm a software engineer born in Moscow, Russia. However I have moved several times so my current location is shown on the map below.
