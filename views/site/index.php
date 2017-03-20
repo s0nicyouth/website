@@ -8,7 +8,7 @@ use yii\bootstrap\NavBar;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
-$this->title = 'My Yii Application';
+$this->title = 'Anton Ivanov | Software engineer, Android developer | Portfolio and resume';
 
 AppAsset::register($this);
 ?>
