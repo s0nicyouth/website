@@ -75,7 +75,14 @@ AppAsset::register($this);
             	'linkOptions' => [
             	    'target' => '_blank'
             	]
-            ]
+            ],
+        	[
+        		'label' => Html::img('images/ln_logo.svg', ['width' => '73px']),
+        		'url' => 'http://www.linkedin.com/in/anton-ivanov-5ab61068/',
+        		'linkOptions' => [
+        				'target' => '_blank'
+        		]
+    		]
         ],
         'options' => ['class' => 'navbar-nav']
     ]);
