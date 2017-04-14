@@ -133,8 +133,8 @@ AppAsset::register($this);
         </ul> 
     </div>
     <p class='about-text'>My name is Anton Ivanov. I'm a software engineer born in Moscow, Russia. However I have moved several times so my current location is shown on the map below.
-    I have solid experience in Anddroid and Windows development using Java and C++ and attendant technologies.
-    I speak Russain as my native language, English at spoken and technical levels and a little bit German.
+    I have solid experience in Android and Windows development using Java and C++ and attendant technologies.
+    I speak Russian as my native language, English at spoken and technical levels and a little bit German.
     More detailed information is available in my <?php echo Html::a('CV', 'docs/cv.pdf')?>.</p>
     <?php echo Html::tag('div', '', ['class' => 'map', 'id' => 'map'])?>
 </div>
