@@ -46,11 +46,11 @@ AppAsset::register($this);
             [
                 'label' => 'About',
                 'url' => $about_anchor,
-            ],
+            ]/*,
             [
                 'label' => 'blog',
                 'url' => 'site/index',
-            ]
+            ]*/
         ],
         'options' => ['class' => 'navbar-nav']
     ]);
